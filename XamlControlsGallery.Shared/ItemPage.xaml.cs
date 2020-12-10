@@ -30,7 +30,7 @@ using Windows.UI.Xaml.Navigation;
 namespace AppUIBasics
 {
     /// <summary>
-    /// A page that displays details for a single item within a group.
+    /// A page that displays details for a single item within a group. 显示右边详情
     /// </summary>
     public partial class ItemPage : Page
     {

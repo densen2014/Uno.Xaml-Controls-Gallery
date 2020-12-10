@@ -10,7 +10,7 @@
     <AssemblyName>AppUIBasics</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.17763.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.18362.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.17134.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
@@ -19,11 +19,9 @@
     <PackageCertificateThumbprint>
     </PackageCertificateThumbprint>
     <PackageCertificateKeyFile>XamlControlsGallery_TemporaryKey.pfx</PackageCertificateKeyFile>
-
-		<!-- Disable until error fixed: error APPX0107: The certificate specified is not valid for signing. For more information about valid certificates, see http://go.microsoft.com/fwlink/?LinkID=241478.s -->
-		<AppxPackageSigningEnabled Condition="'$(Configuration)'=='Release'">false</AppxPackageSigningEnabled>
-
-		<!-- Required for .NET Core builds -->
+    <!-- Disable until error fixed: error APPX0107: The certificate specified is not valid for signing. For more information about valid certificates, see http://go.microsoft.com/fwlink/?LinkID=241478.s -->
+    <AppxPackageSigningEnabled Condition="'$(Configuration)'=='Release'">false</AppxPackageSigningEnabled>
+    <!-- Required for .NET Core builds -->
     <SkipAppxManifestValidation>true</SkipAppxManifestValidation>
   </PropertyGroup>
   <PropertyGroup>

@@ -1,8 +1,8 @@
-﻿{
+{
   "Groups": [
     {
       "UniqueId": "NewControls",
-      "Title": "What's New",
+      "Title": "新功能",
       "Subtitle": "",
       "ImagePath": "",
       "Description": "",
@@ -299,7 +299,7 @@
     },
     {
       "UniqueId": "Collections",
-      "Title": "Collections",
+      "Title": "集合",
       "Subtitle": "",
       "ImagePath": "",
       "Description": "",
@@ -332,7 +332,7 @@
         {
           "UniqueId": "GridView",
           "IsUno": true,
-          "Title": "GridView",
+          "Title": "餐台",
           "Subtitle": "Presents a collection of items in rows and columns that can scroll horizontally.",
           "ImagePath": "ms-appx:///Assets/GridView.png",
           "Description": "The GridView lets you show a collection of items arranged in rows and columns that scroll horizontally.",
